@@ -13,14 +13,14 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~8NYjTYIR#fKg3SYdeiKysyQ-wrH2GjDrPIdGZIIwM_q301Q9RdrE",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ALONG-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "918731810311",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER") || "ALONG",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
