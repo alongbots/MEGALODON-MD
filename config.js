@@ -48,17 +48,7 @@ module.exports = {
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
-    REJECT_MSG: process.env.REJECT_MSG || "*📞 🤖 BERU BOT SYSTEM 🤖  
-━━━━━━━━━━━━━━━━━━━  
-⚡ LORD ALONG is currently busy...  
-📩 Please leave your message after the beep.  
-
-[✔] Your message will be logged.  
-[✔] He will respond when available.  
-
-💠 Stay patient, human... the Lord is watching. 💠  
-━━━━━━━━━━━━━━━━━━━  
-*",
+    REJECT_MSG: process.env.REJECT_MSG || "*📞 🤖 BERU BOT SYSTEM 🤖*",
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
